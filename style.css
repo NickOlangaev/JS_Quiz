@@ -1,0 +1,53 @@
+.quiz-body {
+    max-width: 400px;
+    margin: 80px auto 0;
+    font-size: 50px;
+}
+
+.question-body {
+    padding: 15px;
+}
+
+.result-field {
+    text-align: center;
+    border: 1px solid rgb(37, 37, 240);
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 25px 10px;
+}
+
+.question-wrapper {
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.answer-item {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    background-color: #9299908a;
+}
+
+.answer-item:focus {
+    border: 1px solid rgb(7, 7, 7);
+}
+
+.correct {
+    background-color: #31fa1fd8;
+}
+
+.wrong {
+    background-color: rgb(209, 26, 26);
+}
+
+.quiz-footer {
+    font-size: 20px;
+    text-align: center;
+}
